@@ -73,3 +73,18 @@ body {
   height: auto;
   object-fit: cover;
 }
+
+.temax_svg {
+  width: 15%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #4b0000;
+  text-decoration: underline;
+}
