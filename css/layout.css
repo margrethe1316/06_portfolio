@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -5,6 +11,7 @@ img {
   padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 15px;
 }
 
 nav ul {
@@ -24,13 +31,30 @@ nav ul {
 }
 
 .tema1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: flex-end;
   margin-left: 50px;
 }
 
-.tema2 {
+.tepose {
   display: grid;
-  margin-left: -175px;
-  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.knap {
+  display: inline-block; /* Sørger for, at linket opfører sig som en inline-block (kan have størrelse) */
+  padding: 10px 20px; /* Indre margin (plads omkring teksten) */
+  background-color: #48110c; /* Baggrundsfarve (blå) */
+  color: #ff7bac; /* Tekstfarve */
+  text-decoration: none; /* Fjern underline (standard på links) */
+  border-radius: 5px; /* Runde hjørner */
+  font-size: 16px; /* Tekststørrelse */
+  text-align: center; /* Centrer teksten */
+  transition: background-color 0.3s ease; /* Blød overgang ved hover */
+}
+
+@media (min-width: 800px) {
 }

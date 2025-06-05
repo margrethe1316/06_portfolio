@@ -20,56 +20,73 @@ nav ul {
   transition: color 0.3s;
 }
 
+.menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .menu a:hover {
   color: #4b0000;
   text-decoration: underline;
 }
 
+body {
+  margin: 15px;
+  font-family: serif;
+  background-color: #fff8f2;
+}
+
 h1 {
   text-align: center;
   color: #4b0000;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 p {
+  padding-top: 10px;
+  padding-bottom: 20px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 h2 {
-  margin-left: 15px;
+  padding-bottom: 10px;
   margin-right: 15px;
 }
 
 h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
 h4 {
+  padding-bottom: 5px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-body {
-  margin: 0;
-  font-family: serif;
-  background-color: #fff8f2;
+.portfolioimg {
+  width: 90%;
+  margin-left: 15px;
 }
 
 .wrapper {
   display: flex;
-  height: 72vh;
+  height: 75vh;
+  width: 450px;
+  border: 1px solid #d16c91;
+  overflow: hidden; /* 💡 forhindrer billede i at stikke ud */
 }
 
 .sidebar {
-  width: 80px;
-  background-color: #fff3e6;
-  border-right: 1px solid #d16c91;
-  border-top: 1px solid #d16c91;
+  width: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 10px;
+  padding: 60px 0;
 }
 
 .vertical-text {
@@ -78,16 +95,20 @@ body {
   text-align: center;
   font-weight: bold;
   color: #4b0000;
+  font-size: 18px;
+  margin: 0 10px;
 }
 
 .portraet {
   flex-grow: 1;
+  overflow: hidden; /* 💡 vigtigt */
+  height: 100%; /* 💡 fyld wrapperens højde */
 }
 
 .portraet img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  object-fit: cover; /* 💡 fylder og beskærer billedet korrekt */
+  display: block;
 }
 
 .temax_svg {
@@ -96,7 +117,7 @@ body {
 }
 
 .tema {
-  width: 20%;
+  width: 12%;
   height: auto;
 }
 
@@ -108,4 +129,7 @@ a {
 a :hover {
   color: #4b0000;
   text-decoration: underline;
+}
+
+@media (min-width: 800px) {
 }
