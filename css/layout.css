@@ -22,3 +22,15 @@ nav ul {
   display: inline-block;
   border-radius: 5px;
 }
+
+.tema1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 50px;
+}
+
+.tema2 {
+  display: grid;
+  margin-left: -175px;
+  margin-top: 30px;
+}
