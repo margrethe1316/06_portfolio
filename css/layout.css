@@ -25,6 +25,11 @@ nav ul {
   grid-template-columns: 1fr 20fr;
 }
 
+.billede_forside2 {
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+}
+
 .tekst_med_baggrund {
   background-color: rgba(209, 108, 145, 0.8);
   padding: 10px;
@@ -61,6 +66,16 @@ nav ul {
   transition: background-color 0.3s ease; /* Blød overgang ved hover */
 }
 
+.logo {
+  position: absolute;
+  left: 20px;
+  top: -35px;
+}
+
+.billede_forside {
+  display: none;
+}
+
 @media (min-width: 800px) {
   .tema2 {
     display: grid;
@@ -70,6 +85,7 @@ nav ul {
   .tema2a {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
   }
 
   .index_main {
@@ -80,7 +96,25 @@ nav ul {
   .tekst_forside {
     margin-top: 110px;
     margin-left: 50px;
-    margin-right: 300px;
+    margin-right: 0px;
+  }
+
+  .tema_2 {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
   }
 
   .velkommen {
@@ -93,6 +127,11 @@ nav ul {
     grid-template-columns: 3fr 1fr;
   }
 
+  .header_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .portraet {
     position: relative;
     top: -80px;
@@ -103,11 +142,19 @@ nav ul {
   .sidebar {
     position: absolute;
     left: 0px;
-    top: 0;
-    height: 800px;
+    top: 64px;
+    height: 722px;
   }
 
   .billede_forside {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .billede_forside2 {
     display: grid;
     grid-template-columns: 1fr;
 
@@ -121,7 +168,24 @@ nav ul {
     margin-right: 185px;
   }
 
+  .menu_2 {
+    display: flex;
+    justify-content: end;
+  }
+
   li {
     padding-right: 50px;
+  }
+
+  nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -15px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 20px;
+    top: 3px;
   }
 }
