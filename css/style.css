@@ -1,0 +1,210 @@
+.portfolio {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4b0000;
+  -webkit-text-stroke: 1px #d16c91;
+  border-bottom: 1px solid #d16c91;
+}
+
+nav ul {
+  list-style-type: none; /* Fjerner punkterne */
+  padding: 0;
+  margin: 0;
+  font-size: large;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #d16c91;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu a:hover {
+  color: #4b0000;
+  text-decoration: underline;
+}
+
+body {
+  margin: 15px;
+  font-family: serif;
+  background-color: #fff8f2;
+}
+
+h1 {
+  text-align: center;
+  color: #4b0000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h2 {
+  padding-bottom: 10px;
+  margin-right: 15px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+h4 {
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.portfolioimg {
+  width: 90%;
+  margin-left: 15px;
+}
+
+.billede_forside {
+  border-bottom: 1px solid #d16c91;
+  border-top: 1px solid #d16c91;
+  border-right: 1px solid #d16c91;
+}
+
+.billede_forside2 {
+  border-bottom: 1px solid #d16c91;
+  border-top: 1px solid #d16c91;
+  border-right: 1px solid #d16c91;
+}
+
+.sidebar {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-right: 1px solid #d16c91;
+  border-left: 1px solid #d16c91;
+}
+
+.sidebar_tema3 {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-right: 1px solid #d16c91;
+  border-left: 1px solid #d16c91;
+}
+
+.sidebar_tema4 {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-right: 1px solid #d16c91;
+  border-left: 1px solid #d16c91;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+  font-weight: bold;
+  color: #4b0000;
+  font-size: 18px;
+  margin: 30px 10px;
+}
+
+.portraet {
+  flex-grow: 1;
+  overflow: hidden; /* 💡 vigtigt */
+  height: 100%; /* 💡 fyld wrapperens højde */
+}
+
+.temax_svg {
+  width: 15%;
+  height: auto;
+}
+
+.tema {
+  width: 12%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #4b0000;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 10%;
+}
+
+.spil_img {
+  border: 1px solid #d16c91;
+}
+
+@media (min-width: 800px) {
+  .menu {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d16c91;
+  }
+
+  .menu_2 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d16c91;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .menu_2 a {
+    color: #d16c91;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .menu_2 a:hover {
+    color: #4b0000;
+    text-decoration: underline;
+  }
+
+  .portfolio {
+    display: none;
+  }
+
+  .billede_forside {
+    border: none;
+  }
+  .logo {
+    width: 5%;
+  }
+
+  .pitch {
+    width: 50%;
+    height: auto;
+  }
+
+  .karakter {
+    width: 100%;
+  }
+}
