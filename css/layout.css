@@ -43,7 +43,8 @@ nav ul {
 .tema1 {
   display: flex;
   align-items: flex-end;
-  margin-left: 50px;
+  margin-left: 15px;
+  margin-top: 40px;
 }
 
 .tepose {
@@ -117,6 +118,33 @@ nav ul {
     margin-top: 20px;
   }
 
+  .grid_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_3a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .grid_3a p {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .grid_3a h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .grid_3b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+
   .velkommen {
     text-align: start;
     margin-left: 15px;
@@ -146,6 +174,13 @@ nav ul {
     height: 722px;
   }
 
+  .sidebar_tema3 {
+    position: absolute;
+    left: 0px;
+    top: 64px;
+    height: 1100px;
+  }
+
   .billede_forside {
     display: grid;
     grid-template-columns: 1fr;
@@ -155,6 +190,21 @@ nav ul {
   }
 
   .billede_forside2 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sidebar_tema4 {
+    position: absolute;
+    left: 0px;
+    top: 64px;
+    height: 1458px;
+  }
+
+  .billede_forside4 {
     display: grid;
     grid-template-columns: 1fr;
 
