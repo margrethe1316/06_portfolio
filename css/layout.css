@@ -181,6 +181,13 @@ nav ul {
     height: 1250px;
   }
 
+  .sidebarp {
+    position: absolute;
+    left: 0px;
+    top: 57px;
+    height: 722px;
+  }
+
   .billede_forside {
     display: grid;
     grid-template-columns: 1fr;

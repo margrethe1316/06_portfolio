@@ -118,6 +118,16 @@ h4 {
   border-left: 1px solid #d16c91;
 }
 
+.sidebarp {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-right: 1px solid #d16c91;
+  border-left: 1px solid #d16c91;
+}
+
 .vertical-text {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
