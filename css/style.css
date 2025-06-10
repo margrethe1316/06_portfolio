@@ -246,4 +246,8 @@ a :hover {
     border-bottom: 0px solid #d16c91;
     border-right: 0px solid #d16c91;
   }
+
+  .om_mig_tekst {
+    margin-right: 200px;
+  }
 }
