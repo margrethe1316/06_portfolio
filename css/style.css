@@ -248,10 +248,13 @@ a :hover {
   }
 
   .om_mig_tekst {
+
     max-width: 65ch;
   }
 
   .tekst_portfolioside {
     margin-right: -106px;
+    margin-right: 200px;
+
   }
 }
