@@ -205,4 +205,8 @@ a :hover {
   .karakter {
     width: 100%;
   }
+
+  .om_mig_tekst {
+    margin-right: 200px;
+  }
 }
