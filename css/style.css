@@ -84,6 +84,8 @@ h4 {
 
 .billede_forside2 {
   border-top: 1px solid #d16c91;
+  border-bottom: 1px solid #d16c91;
+  border-right: 1px solid #d16c91;
 }
 
 .sidebar {
@@ -107,6 +109,16 @@ h4 {
 }
 
 .sidebar_tema4 {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 10px;
+  border-right: 1px solid #d16c91;
+  border-left: 1px solid #d16c91;
+}
+
+.sidebarp {
   width: 60px;
   display: flex;
   flex-direction: column;
@@ -167,6 +179,12 @@ a :hover {
     border-bottom: 1px solid #d16c91;
   }
 
+  .menua {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d16c91;
+  }
+
   .menu_2 {
     padding-top: 5px;
     padding-bottom: 15px;
@@ -182,6 +200,17 @@ a :hover {
   }
 
   .menu_2 a:hover {
+    color: #4b0000;
+    text-decoration: underline;
+  }
+
+  .menua a {
+    color: #d16c91;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .menua a:hover {
     color: #4b0000;
     text-decoration: underline;
   }
@@ -202,8 +231,20 @@ a :hover {
     height: auto;
   }
 
-  .karakter {
-    width: 100%;
+  .portfolio_tekst {
+    position: absolute;
+    width: 92%;
+    top: 525px;
+    left: 93px;
+  }
+
+  .portfolio_teksta {
+    opacity: 0.5;
+  }
+
+  .billede_forside2 {
+    border-bottom: 0px solid #d16c91;
+    border-right: 0px solid #d16c91;
   }
 
   .om_mig_tekst {
