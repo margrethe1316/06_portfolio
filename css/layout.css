@@ -162,7 +162,7 @@ nav ul {
 
   .portraet {
     position: relative;
-    top: -80px;
+    top: -100px;
     width: 100%;
     height: auto;
   }
@@ -170,7 +170,7 @@ nav ul {
   .sidebar {
     position: absolute;
     left: 0px;
-    top: 64px;
+    top: 66px;
     height: 722px;
   }
 
@@ -216,6 +216,12 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     margin-right: 185px;
+  }
+
+  .menua {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
   }
 
   .menu_2 {
